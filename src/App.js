@@ -1,23 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Card';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Card image="https://media.licdn.com/dms/image/D4D03AQH60gt2FQFKOA/profile-displayphoto-shrink_800_800/0/1669044086394?e=1687392000&v=beta&t=usYMAzibKxvZ8_huSHRYx3mXym6oNMsh7iXFJWHA0Nk"/>
     </div>
   );
 }
